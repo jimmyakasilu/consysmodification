@@ -59,6 +59,7 @@ end
 
 TF = tf(NumPoly,DenPoly);
 figure(2);
-bode(TF,'r')
+h = bodeplot(TF,'r');
+setoptions(h,'FreqUnits','Hz')
 grid on
 grid minor
