@@ -1,3 +1,6 @@
+#Author : Siladittya Manna
+#need only enter the G(s) as it is....need not enter co-efficients after cumbersome multiplication of factors
+
 clear
 syms s
 
