@@ -1,3 +1,6 @@
+%Declare "syms s" before running the function and enter the TF in terms of "s"
+
+
 function [TF,NumPoly,DenPoly] = convert2tf(inputTF)
 
 NumPoly = 1;
